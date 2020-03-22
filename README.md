@@ -40,9 +40,12 @@ Once you are in a game, here is how to set it up (you only have to do this once)
 - All items will be stacked on top of the first slot. Drag them to other slots as appropriate
 
 # Play a scenario
+You will have to do this every time you start a scenario
 ## Scenario setup
 - Click `Predefined Scenarios` to find the scenario you are doing
 - Click `Setup Enemy Decks`
+  - To set up enemies manually, go to `Dungeon -> Enemy Deck` and right click `Set up as Enemy #`
+- Click `Dungeon -> Enemy Board` and `Change Enemy Level` to appropriate level
 - Close `Predefined Scenarios` or use it as a guide to set up your Main Board
 - Click `Dungeon -> Dungeon Board` to open Main Board
 - Click `Dungeon -> Dungeon Setup`
@@ -50,7 +53,9 @@ Once you are in a game, here is how to set it up (you only have to do this once)
   - Click `Token` and drag the appropriate traps, etc. onto the room tile
   - Click `Enemy Token` or `Boss Token` and drag enemies on the room tile
   - Click `Hero Token` and drag your character tokens on the room tile
-  - Click `Enemy Sheet` or `Boss Sheet` and drag it to beside the room tile
+  - Click `Enemy Sheet` or `Boss Sheet` and drag it to beside the room tile (right click to rotate it to the desired difficulty level)
+- Click `Dungeon -> Battle Goals` and drag 2 battle goals to each player board
+  - Player may return 1 to the Battle Goals stack
 - Click `Token -> MonsterInitID`
   - Drag a random number to each visible monster
   - Also drag the same number to beside the Enemy/Boss Sheet to count damage
@@ -60,10 +65,11 @@ Once you are in a game, here is how to set it up (you only have to do this once)
 - Click `Dungeon -> Dungeon Board` and move your character token to your starting position
 ## Play a turn
 - Each player chooses two cards to play from their hand, and drags them onto the Main Board
-- Click `Dungeon -> Enemy Board` (prepopulated from `Setup Enemy Deck`) and drag a facedown enemy card to the discard pile
+- Click `Dungeon -> Enemy Board` and drag a facedown enemy card to the discard pile
 - Resolve turn in initiative order, dragging and dropping hexes on the room tile as appropriate
 - When the turn is done, drag your two cards onto your Player Board (discard, persistent effect, or lost pile as appropriate)
 - If you click on `Token` you can drag money, status effects, damage, and summons onto the board. You can also add curses/blesses to your deck
+- Click `Dungeon -> Element Board` to modify elements
 
 # Troubleshooting
 "My `P2/P4 Hand` button is greyed out"  
