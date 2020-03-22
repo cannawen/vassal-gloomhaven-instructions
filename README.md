@@ -11,7 +11,7 @@ How to set up a remote Gloomhaven game for free using Vassal
 - Type name of your room under in "New Game" box
 - Click `File -> New Game`  
 
-Your friends can now join your room! Right click your room to "lock" it
+Your friends can now join your room! Right click your room to lock it
 
 # Game Setup
 Once you are in a game, here is how to set it up (you only have to do this once)
@@ -67,6 +67,8 @@ Once you are in a game, here is how to set it up (you only have to do this once)
 "My `P2/P4 Hand` button is greyed out"  
 Click `Retire -> Join another side -> Solo` to enable all buttons, or upgrade to Version 1.2
 
+---
+
 This information should be enough to get a basic game of Gloomhaven going on Vassal. 
 
-GLHF #staythefuckhome
+GLHF and #staythefuckhome
