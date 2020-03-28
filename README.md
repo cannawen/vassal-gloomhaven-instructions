@@ -1,7 +1,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # Vassal x Gloomhaven
-How to set up a remote Gloomhaven game for free using Vassal (v1.1)
+How to set up a remote Gloomhaven (v1.1) game for free using Vassal (v3.2.17)
 
 # Getting Started
 - Download Vassal https://www.vassalengine.org/index.php  
