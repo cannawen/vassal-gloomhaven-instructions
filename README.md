@@ -1,12 +1,14 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # Vassal x Gloomhaven
-How to set up a remote Gloomhaven (v1.1) game for free using Vassal (v3.2.17)
+How to set up a remote Gloomhaven (v1.3) game for free using Vassal (v3.2.17)  
+[See here for v1.1 instructions](https://github.com/cannawen/vassal-gloomhaven-instructions/tree/v1.1)
 
 # Getting Started
-- Download Vassal https://www.vassalengine.org/index.php  
-- Download Gloomhaven module and extensions http://www.vassalengine.org/wiki/Module:Gloomhaven  
-- Open Vassal and add Gloomhaven Module: `File -> Open Module -> Gloomhaven 1.1.vmod`  
+- [Download Vassal](https://www.vassalengine.org/index.php )  
+- [Download Gloomhaven module and extensions](http://www.vassalengine.org/wiki/Module:Gloomhaven)  
+  - Gloomhaven 1.3.vmod, Gloomhaven Heroes 1.3.vmdx, Gloomhaven Scenarios 1.1.vmdx, and optional Gloomhaven Forgotten Circles 1.3.vmdx
+- Open Vassal and add Gloomhaven Module: `File -> Open Module -> Gloomhaven 1.3.vmod`  
 - Add extensions: Right click `Gloomhaven Module -> Add Extension... -> (extension).mdx`  
 - Double click Gloomhaven Module, look for a game online
 - Click third left/right arrow button to show Active Games
@@ -26,6 +28,9 @@ Once you are in a game, here is how to set it up (you only have to do this once)
 - Click `Hero -> Level Up` and select your class from the top
 - Find your cards, drag and drop the images onto the whitespace on your `P1 Hand` board
 - The grey spaces represent the cards in your hand that you will bring to any scenario, so you can choose some of your "must have" cards to place here
+- Right click to add enhancements
+  - Each number (1, 2, 3, 4) represents an enhancement on the Bottom or Top of your card
+  - Click "Next" to scroll through different kinds of enhancements
 ### Modifier Deck
 - Click `P1 Board` and drag all of the facedown modifier cards out to the empty side of the board
 - Looking at your perks, right click and remove all appropriate modifier cards
@@ -33,10 +38,20 @@ Once you are in a game, here is how to set it up (you only have to do this once)
 - Click `Battle Deck` and find the appropriate modifiers you need
 - Drag and drop them onto your `P1 Board`
 - Drag all modifier cards back on the modifier draw pile (they should stack neatly, facedown)
+- If you need to find removed cards, go to `Hero -> Lost Battle Cards`. Each segment represents a player's lost modifier cards
 ### Items
+Option 1 - Keep track of which items are available in your shop  
+- Go to `Hero -> Item Deck`
+- `Right Click -> Send to Available Items` all items your party has unlocked. 
+- Click `Hero -> Available Items`  
+
+Option 2 (easier) - Make all items available on Vassal
+- `Hero -> Item Repo` and drag all items into first slot
 - Click `Hero -> Item Deck`
-- Find the items you are looking for, right click `P1 Item`
-- Click `P1 Board`
+
+With either option you choose
+- Find the items you are looking for, right click `P# Item`
+- Click `P# Board`
 - All items will be stacked on top of the first slot. Drag them to other slots as appropriate
 
 # Play a scenario
@@ -56,9 +71,7 @@ You will have to do this every time you start a scenario
   - Click `Enemy Sheet` or `Boss Sheet` and drag it to beside the room tile (right click to rotate it to the desired difficulty level)
 - Click `Dungeon -> Battle Goals` and drag 2 battle goals to each player board
   - Player may return 1 to the Battle Goals stack
-- Click `Token -> MonsterInitID`
-  - Drag a random number to each visible monster
-  - Also drag the same number to beside the Enemy/Boss Sheet to count damage
+- Right click each monster to set a random initiative
 ## Character setup
 - Click `P1 Hand` and choose which cards you want to bring on the scenario by placing them on the grey rectangles
 - Click `P1 Board` and set your appropriate HP
@@ -75,13 +88,9 @@ You will have to do this every time you start a scenario
   - Long rest: Right click Discard pile and `Draw Specific Card` to bring it to the top. Drag card to Lost pile
   - Note: I have had very bad luck using `Return to Hand` where the cards just disappear instead, so I recommend dragging all the cards back to your hand
 - To add curses/bless/-1, click `Token -> Battle Deck Modifier`
+- To add summons, click `Token -> Summon`
 - When the turn is done, drag your two cards onto your Player Board (discard, persistent effect, or lost pile as appropriate)
-- If you click on `Token` you can drag money, status effects, damage, and summons onto the board
 - Click `Dungeon -> Element Board` to modify elements
-
-# Troubleshooting
-"My `P2/P4 Hand` button is greyed out"  
-Click `Retire -> Join another side -> Solo` to enable all buttons, or upgrade to Version 1.2
 
 ---
 
