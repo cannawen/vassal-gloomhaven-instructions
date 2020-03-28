@@ -1,12 +1,12 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # Vassal x Gloomhaven
-How to set up a remote Gloomhaven game for free using Vassal
+How to set up a remote Gloomhaven game for free using Vassal (v1.1)
 
 # Getting Started
 - Download Vassal https://www.vassalengine.org/index.php  
 - Download Gloomhaven module and extensions http://www.vassalengine.org/wiki/Module:Gloomhaven  
-- Open Vassal and add Gloomhaven Module: `File -> Open Module -> Gloomhaven (version).vmod`  
+- Open Vassal and add Gloomhaven Module: `File -> Open Module -> Gloomhaven 1.1.vmod`  
 - Add extensions: Right click `Gloomhaven Module -> Add Extension... -> (extension).mdx`  
 - Double click Gloomhaven Module, look for a game online
 - Click third left/right arrow button to show Active Games
@@ -46,7 +46,7 @@ You will have to do this every time you start a scenario
 - Click `Setup Enemy Decks`
   - To set up enemies manually, go to `Dungeon -> Enemy Deck` and right click `Set up as Enemy #`
 - Click `Dungeon -> Enemy Board` and `Change Enemy Level` to appropriate level
-- Close `Predefined Scenarios` or use it as a guide to set up your Main Board
+- Close `Predefined Scenarios` or skip the next few steps and use it as your main play area if you don't mind behind-the-door spoilers
 - Click `Dungeon -> Dungeon Board` to open Main Board
 - Click `Dungeon -> Dungeon Setup`
   - Click `Tiles` and drag the first room tile onto the Main Board
@@ -85,6 +85,6 @@ Click `Retire -> Join another side -> Solo` to enable all buttons, or upgrade to
 
 ---
 
-This information should be enough to get a basic game of Gloomhaven going on Vassal. 
+This information should be enough to get a basic game of Gloomhaven going on Vassal. See this [BGG thread](https://boardgamegeek.com/thread/2379085/gloomhaven-vassal-module/page/1) for more up-to-date info
 
 GLHF and #staythefuckhome
