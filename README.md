@@ -7,7 +7,10 @@ How to set up a remote Gloomhaven (v1.3) game for free using Vassal (v3.2.17)
 # Getting Started
 - [Download Vassal](https://www.vassalengine.org/index.php )  
 - [Download Gloomhaven module and extensions](http://www.vassalengine.org/wiki/Module:Gloomhaven)  
-  - Gloomhaven 1.3.vmod, Gloomhaven Heroes 1.3.vmdx, Gloomhaven Scenarios 1.1.vmdx, and optional Gloomhaven Forgotten Circles 1.3.vmdx
+  - `Gloomhaven 1.3.vmod`
+  - `Gloomhaven Heroes 1.3.vmdx`
+  - `Gloomhaven Scenarios 1.1.vmdx`
+  - `Gloomhaven Forgotten Circles 1.3.vmdx` (optional)
 - Open Vassal and add Gloomhaven Module: `File -> Open Module -> Gloomhaven 1.3.vmod`  
 - Add extensions: Right click `Gloomhaven Module -> Add Extension... -> (extension).mdx`  
 - Double click Gloomhaven Module, look for a game online
@@ -38,7 +41,7 @@ Once you are in a game, here is how to set it up (you only have to do this once)
 - Click `Battle Deck` and find the appropriate modifiers you need
 - Drag and drop them onto your `P1 Board`
 - Drag all modifier cards back on the modifier draw pile (they should stack neatly, facedown)
-- If you need to find removed cards, go to `Hero -> Lost Battle Cards`. Each segment represents a player's lost modifier cards
+- If you need to find removed cards, go to `Hero -> Lost Battle Cards`. Each quadrent represents each player's lost modifier cards
 ### Items
 Option 1 - Keep track of which items are available in your shop  
 - Go to `Hero -> Item Deck`
@@ -61,7 +64,7 @@ You will have to do this every time you start a scenario
 - Click `Setup Enemy Decks`
   - To set up enemies manually, go to `Dungeon -> Enemy Deck` and right click `Set up as Enemy #`
 - Click `Dungeon -> Enemy Board` and `Change Enemy Level` to appropriate level
-- Close `Predefined Scenarios` or skip the next few steps and use it as your main play area if you don't mind behind-the-door spoilers
+- Close `Predefined Scenarios`
 - Click `Dungeon -> Dungeon Board` to open Main Board
 - Click `Dungeon -> Dungeon Setup`
   - Click `Tiles` and drag the first room tile onto the Main Board
@@ -69,9 +72,9 @@ You will have to do this every time you start a scenario
   - Click `Enemy Token` or `Boss Token` and drag enemies on the room tile
   - Click `Hero Token` and drag your character tokens on the room tile
   - Click `Enemy Sheet` or `Boss Sheet` and drag it to beside the room tile (right click to rotate it to the desired difficulty level)
-- Click `Dungeon -> Battle Goals` and drag 2 battle goals to each player board
-  - Player may return 1 to the Battle Goals stack
-- Right click each monster to set a random initiative
+- Each player can click `Dungeon -> Battle Goals` and drag 2 battle goals to their player hand
+  - Each player can return 1 to the Battle Goals stack
+- Right click each monster to set an initiative & starting HP
 ## Character setup
 - Click `P1 Hand` and choose which cards you want to bring on the scenario by placing them on the grey rectangles
 - Click `P1 Board` and set your appropriate HP
@@ -91,6 +94,8 @@ You will have to do this every time you start a scenario
 - To add summons, click `Token -> Summon`
 - When the turn is done, drag your two cards onto your Player Board (discard, persistent effect, or lost pile as appropriate)
 - Click `Dungeon -> Element Board` to modify elements
+
+Note: if you have a hard copy of the game, it may be easier to manage your cards IRL instead of using the player board/player hand
 
 ---
 
